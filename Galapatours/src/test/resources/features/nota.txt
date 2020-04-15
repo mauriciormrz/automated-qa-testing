@@ -1,0 +1,3 @@
+##Ejecutar por linea de comando
+
+gradle -Dtest.single=RunnerTags test aggregate

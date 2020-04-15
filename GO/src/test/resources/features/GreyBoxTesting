@@ -1,0 +1,14 @@
+Feature: Test some queries from the new GO database
+  As a QA of Ventura Travel, I want to make some queries to the new GO database
+
+
+  @ReviewsAndExpectations
+  Scenario Outline: Verification of the creating of Reviews & Expectations
+    Given that HR consults the active vMembers in '<db>'
+    When HR verifies the status of the managers
+    Then HR lists the vMembers with inactive managers
+
+    Examples:
+      | New GO   | db      |
+      | Platform | Staging |
+

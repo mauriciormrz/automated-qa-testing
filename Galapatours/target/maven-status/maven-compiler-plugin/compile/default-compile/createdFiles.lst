@@ -1,0 +1,8 @@
+org\venturatravel\ui\CruisesPage.class
+org\venturatravel\ui\GalapatoursPage.class
+org\venturatravel\ui\VenturaTravelHomePage.class
+org\venturatravel\questions\TheLabel.class
+org\venturatravel\tasks\FillOut.class
+org\venturatravel\ui\TravelWithUsPage.class
+org\venturatravel\tasks\Surf.class
+org\venturatravel\actions\Browse.class

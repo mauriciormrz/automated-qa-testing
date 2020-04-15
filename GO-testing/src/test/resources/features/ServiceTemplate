@@ -1,0 +1,33 @@
+Feature: Service Template
+  As a Travel Specialist of Ventura Travel, I want to work with Service Templates.
+
+  Background:
+    Given that the Admin navigates to the homepage of the New GO platform
+    And he enters his user 'mauricio.ramirez@venturatravel.org' and password 'M@uricio69'
+ #  And that the Admin edits the 'Mauricio Ramirez' info
+ #  And he adds a new role 'SENIOR'
+ #  And he log outs
+ #  And he enters his user 'mauricio.ramirez@venturatravel.org' and password 'M@uricio69'
+
+
+  @CreateServiceTemplate
+  Scenario Outline: Create a new Service Template.
+    When that the TS creates the template '<service template>'
+#    Then '<service template>' should be recorded in his template list
+#
+#
+#    Examples:
+#      | Platform | service template |
+#      | New GO   | QA_test          |
+
+#  @DeleteServiceTemplate
+#  Scenario Outline: Delete a new Service Template.
+#    When that the TS deletes the template '<service template>'
+#    Then '<service template>' should be recorded in his template list
+##   Then he deletes the template '<service template>'
+##   And he does not see the template '<service template>' created
+
+   Examples:
+     | Platform | service template |
+     | New GO   | QA_test          |
+

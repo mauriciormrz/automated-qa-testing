@@ -1,0 +1,196 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Screenshots</title>
+
+<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
+<link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+<!--[if IE 7]>
+<link rel="stylesheet" href="font-awesome/css/font-awesome-ie7.min.css">
+<![endif]--><!-- JQuery -->
+<script type="text/javascript" src="scripts/jquery-1.11.1.min.js"></script><!-- Bootstrap -->
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<script src="bootstrap/js/bootstrap.min.js"></script><link rel="stylesheet" href="css/core.css"/>
+<link rel="stylesheet" href="css/link.css"/>
+<link type="text/css" media="screen" href="css/screen.css" rel="Stylesheet"/><!-- Nivo Slider -->
+<link rel="stylesheet" href="nivo-slider/3.2/nivo-slider.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="nivo-slider/3.2/themes/default/default.css" type="text/css" media="screen" />
+<script src="nivo-slider/3.2/jquery.nivo.slider.pack.js" type="text/javascript"></script>
+    <script type="text/javascript">
+
+        function getUrlVars() {
+            var vars = {};
+            var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function (m, key, value) {
+                vars[key] = value;
+            });
+            return vars;
+        }
+
+        var screenshotIndex = getUrlVars()["screenshot"];
+
+        $(window).load(function () {
+            $('#slider').nivoSlider({
+                startSlide: screenshotIndex,
+                effect: 'fade',
+                animSpeed: 200,
+                manualAdvance: true
+            });
+        });
+
+        $(window).keydown(function(e) {
+            switch(e.which) {
+                case 37:
+                    $('a.nivo-prevNav').click();
+                    break;
+                case 39:
+                    $('a.nivo-nextNav').click();
+                    break;
+            }
+        });
+    </script>
+
+</head>
+
+<body>
+<div id="topheader">
+    <div id="topbanner">
+        <div id="logo"><a href="index.html"><img src="images/serenity-logo.png" border="0"/></a></div>
+        <div id="projectname-banner" style="float:right">
+            <span class="projectname">Demo Project using Serenity and Cucumber</span>
+        </div>
+    </div>
+</div>
+
+<div class="middlecontent">
+    <div id="contenttop">
+        <div class="middlebg">
+            <span class="breadcrumbs">
+                <a href="index.html">Home</a>
+                > <span class="truncate-40"><a
+                    href="bc4bbe41b0d91666460336ae518e1c289a0b67425629814eb8515f30c7c66141.html">Galapatours</a></span>
+                > <span class="truncate-60"><a
+                    href="1763fd0f13b9bccc5e5b6b2fdf1ddf636866e295ed8d5c86fcbf85f8330c0401.html">Find my Galapagos cruise </a></span>
+                > Screenshots
+            </span>
+        </div>
+        <div class="rightbg"></div>
+    </div>
+
+    <div class="clr"></div>
+
+    <!--/* starts second table*/-->
+<div>
+    <ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#"><i class="fa fa-check-square-o"></i> Overall Test Results</a>
+        </li>
+        <li >
+            <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
+        </li>
+        <li >
+            <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="fa fa-comments-o"></i> Features</a>
+        </li>
+    </ul>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 05-11-2019 09:46</span>
+    <br style="clear:left"/>
+</div>
+
+    <div class="clr"></div>
+
+
+    <div id="contentbody">
+        <div class="titlebar">
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td>
+                            <div>
+                                <h3 class="discreet-story-header">
+                                    <i class="fa fa-2x fa-comments-o"></i>
+                                    <span class="story-header-title">Galapatours </span>
+                                    <span class="badge tag-badge">Feature</span>
+                                </h3>
+
+                                <div class="discreet-requirement-narrative-title">
+                                As a web user
+I want to booking a cruise
+for traveling to the Galapagos Islands
+                                </div>
+                            </div>
+
+                        </td>
+                        <td valign="top" align="right">
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td colspan="2" class="test-title-bar">
+                            <span class="outcome-icon"><i class='fa fa-check-square-o success-icon fa-2x' title='SUCCESS'></i></span>
+                            <span class="test-case-title">
+                                <span class="success-color">Find my Galapagos cruise
+                                    <span class="related-issue-title"></span>
+                                </span>
+                            </span>
+
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="clr"></div>
+
+
+    <div id="beforetable"></div>
+    <div id="contenttilttle">
+        <div class="slider-wrapper theme-default">
+            <div id="slider">
+                <img src="scaled_99642c07c4c822b987d9af7ce4c0abc38cfd5acc17a4aa3a51e902099dd02697.png" title="Given That Mauricio wants to find the best ships and routes" width="960"/>
+                <img src="63ba05cfef6a4539674cbcc6cb7edbf06ad76afa6265452498a15be2a11e9853.png" title="Mauricio opens the Ventura travel home page" width="960"/>
+                <img src="scaled_bcd5ac0ee35712ad7fcc55e16aaf9a21dfbf50bfac5d2ab2f0445aebaf6e35a5.png" title="Mauricio clicks on //*[@id='vPrivacyBanner']/div/button" width="960"/>
+                <img src="scaled_ea265ce4396b692e247ca0ea4bf1b234a8f6c75cd1f2c4a55080c1c5861c86a3.png" title="Mauricio clicks on Option Travel with us" width="960"/>
+                <img src="scaled_5c5b307a772ac58ad62d1a641479fd2a11c58f22cf46d901f27b37d8f434c6f8.png" title="Mauricio clicks on Menu option Find Your Trip" width="960"/>
+                <img src="scaled_21f0bafd7f33f87b4eaff3e8ce7155831934b58d006231a2b90aeb26040c585d.png" title="Then Label Galapatours should be an element that is enabled" width="960"/>
+                <img src="scaled_5b8cc373fffcf12e710a0ae3a134b74af8e353c614818b45944cbdf9f3e013e6.png" title="Mauricio clicks on Label Galapatours" width="960"/>
+                <img src="scaled_57f7499c75e47d6b67293d462dbf088e3fa1727ba30667f9fc325e5ffd7e000f.png" title="Mauricio uses the browser to go to another tab browse to the new tab" width="960"/>
+                <img src="scaled_417f25eb42039e83729c2fd96ba3878adf3840169997cc77c83815a1d9cb4316.png" title="Then Label Find Your Galapagos Cruise should be an element that is visible" width="960"/>
+                <img src="scaled_c413486cc9c968d9b88912c6f762975d6c62e1081f5aa1ff8d9fa5a281fdaf66.png" title="When he searches a cruise for 2 passengers on 10 August 2019" width="960"/>
+                <img src="scaled_5a79681eca7fe9d5443605f1c616874a36db73dbfa7a8db1d851f8beae2de899.png" title="Mauricio clicks on #notice-cookie-block &gt; div&gt; div.actions &gt; button" width="960"/>
+                <img src="scaled_dc16be7f2a2bdd0140f80b9cd68bd0ba0db280d4af092a71136af247f859d5b3.png" title="Mauricio clicks on Button Search" width="960"/>
+                <img src="c413486cc9c968d9b88912c6f762975d6c62e1081f5aa1ff8d9fa5a281fdaf66.png" title="Then he should see GALAPAGOS CRUISES: AVAILABILITIES &amp; PRICES of the Galapagos cruises" width="960"/>
+                <img src="c413486cc9c968d9b88912c6f762975d6c62e1081f5aa1ff8d9fa5a281fdaf66.png" title="Then the label should be 'GALAPAGOS CRUISES: AVAILABILITIES &amp; PRICES': <span class='success-color'>SUCCESS</span>" width="960"/>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+<div id="beforefooter"></div>
+<div id="bottomfooter">
+    <span class="version">Serenity BDD version 1.8.1</span>
+</div>
+</body>
+</html>

@@ -1,0 +1,6 @@
+steps:
+  - name: "gcr.io/ventura-cluster/skaffold"
+    args: ["run"]
+    env:
+      - "CLOUDSDK_CONTAINER_CLUSTER=ventura-cluster"
+      - "CLOUDSDK_COMPUTE_ZONE=europe-west3-b"
